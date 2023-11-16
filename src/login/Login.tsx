@@ -30,14 +30,10 @@ const Login = () => {
           variant="standard"
           type="password"
         />
-        <Button
-          variant="contained"
-          style={{
-            marginTop: "2rem",
-          }}
-        >
-          Iniciar Sesion
-        </Button>
+        <Button href="/options" variant="contained">
+            INICIAR SESION
+          </Button>
+       
       </Stack>
     </Container>
   );
