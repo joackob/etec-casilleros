@@ -7,9 +7,9 @@ import {
 } from "@mui/material";
 
 const MainSection = () => {
-  const title = "Vos queres crecer.\n Nosotros te queremos ayudar";
+  const title = "CASILLEROS DE LA ETEC-UBA";
   const subtitle =
-    "Crea una web con plantillas impecables, fácil edición y sin codificación.";
+    "ESCANEE EL QR DE SU CASILLERO";
   const sm = useMediaQuery("min-width(600px)");
 
   return (
@@ -77,7 +77,9 @@ const MainSection = () => {
             sm: "left",
           }}
         >
-          <Button variant="contained">Comienza a crear</Button>
+        <Button href="/scan" variant="contained">
+            ESCANEAR
+          </Button>
         </Box>
 
         <Box
