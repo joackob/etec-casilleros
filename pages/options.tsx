@@ -6,7 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import PersonAddAlt1Icon from "@mui/icons-material/PersonAddAlt1";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 
-export default function Rooms() {
+export default function Options() {
   return (
     <Box marginTop="12px">
       <Box
