@@ -8,7 +8,7 @@ import {
 
 const MainSection = () => {
   const title = "CASILLEROS DE LA ETEC-UBA";
-  const subtitle = "ESCANEE EL QR DE SU CASILLERO";
+  const subtitle = "USE SU CODIGO DE VERIFICACION O ESCANEE EL QR DE SU CASILLERO ";
   const sm = useMediaQuery("min-width(600px)");
 
   return (
@@ -77,7 +77,7 @@ const MainSection = () => {
           }}
         >
           <Button href="/scan" variant="contained">
-            ESCANEAR
+            SIGUIENTE
           </Button>
         </Box>
         <Box

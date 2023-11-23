@@ -4,11 +4,13 @@ export default function Options() {
   return (
     <Box
       sx={{
-        marginTop: "50px",
+        marginTop: "350px",
+        marginLeft: "150px"
         
       }}
+      
     >
-      <Button variant="contained">
+      <Button variant="contained" >
         ABRIR
       </Button>
        <Button variant="contained">

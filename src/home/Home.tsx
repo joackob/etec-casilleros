@@ -14,18 +14,7 @@ const Home = () => {
         <MainSection />
       </Container>
 
-      <Container maxWidth={false} className="background-light">
-        <Container>
-          <Stack spacing={8} py={8}>
-            <PlansSection />
-            <StepsToDeploySection />
-            <BuildFastSection />
-            <CustomerSuportSection />
-            <OnlineSaleSection />
-            <TemplateCustomSection />
-          </Stack>
-        </Container>
-      </Container>
+
     </>
   );
 };
